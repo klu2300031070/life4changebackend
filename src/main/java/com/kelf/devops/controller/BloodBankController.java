@@ -33,7 +33,7 @@ import com.kelf.devops.service.BloodBankServiceimpl;
 
 @RestController
 @RequestMapping("/bloodbankapi")
-@CrossOrigin(origins="*")
+@CrossOrigin(origins = "https://life4change.onrender.com")
 public class BloodBankController {
 	
 	@Autowired

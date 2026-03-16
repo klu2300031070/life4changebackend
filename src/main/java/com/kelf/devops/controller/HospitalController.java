@@ -28,7 +28,7 @@ import com.kelf.devops.service.HospitalService;
 
 @RestController
 @RequestMapping("/hospitalapi")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://life4change.onrender.com")
 public class HospitalController {
 
     @Autowired
